@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+
+    <link type="text/css" rel="stylesheet" href="/assets/css/main_styles.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__drop">
+              <div class="topnav" id="myTopnav">
+                <a href="/index.html" class="navbar_active">Home</a>
+                <div class="navbar_dropdown">
+                  <button class="dropbtn">
+                    Education
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="/pages/education-1.html"
+                      >Saint-Petersburg State Marine Technical University</a
+                    >
+                    <a href="/pages/education-2.html"
+                      >The Urals-Siberia Institute of Business</a
+                    >
+                    <a href="/pages/education-3.html">Training Courses</a>
+                    <a href="/pages/education-4.html">IT Course</a>
+                  </div>
+                </div>
+                <a href="/pages/assignments.html">Long-Term Assignments</a>
+                <a href="/pages/assignments_st.html">Short-Term Assignments</a>
+                <a
+                  href="javascript:void(0);"
+                  style="font-size: 15px"
+                  class="icon"
+                  onclick="myFunction()"
+                  >&#9776;</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+
+      <div class="container">
+        <div class="skillfactory">
+          <div class="skillfactory__image">
+            <img
+              src="/assets/images/images_education/Skillfactory_Certificate.png"
+              alt="Skillfactory certificate"
+            />
+          </div>
+
+          <div class="skillfactory__course">
+            <div class="skillfactory__title">
+              The main sections of the course:
+            </div>
+            <ol>
+              <li>Introduction to Python</li>
+              <li>Object Oriented Programming</li>
+              <li>
+                Backend development with Python and Django (Django, PostgreSQL,
+                Celery, Redis, Django REST Framework )
+              </li>
+              <li>
+                Website layout and front-end development in JavaScript
+                (JavaScript, AJAX, HTML, CSS, SASS)
+              </li>
+              <li>Frontend development frameworks (React and Redux)</li>
+              <li>
+                Full stack development (Creating a modern web application with
+                Django and React, Client-server communication via web sockets)
+              </li>
+              <li>DevOps (Linux, Docker)</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================================================ -->
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+</html>
